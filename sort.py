@@ -1,8 +1,13 @@
 import os
 from pathlib import Path
 import shutil
+from  sys import argv
 
-main_path = r"\Users\user\Desktop\HW6\junk"
+script, main_path = argv
+
+print ("Your path",main_path)
+
+#main_path = r"\Users\user\Desktop\HW6\junk"
 
 # key names will be folder names!
 extensions = {'video': ['mp4', 'mov', 'avi', 'mkv'],
